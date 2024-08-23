@@ -9,7 +9,7 @@ const auth = (req, res, next) => {
                 return res.status(401).json({ message:err.stack })
             } else {
                 // console.log(decoded)
-                req.user = decoded.userId;
+                req.user = decoded;
                 next();
             }
         })

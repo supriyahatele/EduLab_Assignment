@@ -67,30 +67,28 @@ This project is a backend API for a Task Management System designed with enhance
 1. Clone the repository:
     ```bash
     git clone https://github.com/supriyahatele/EduLab_Assignment.git
- cd  EduLab_Assignment
- npm install
- start the server with command : npm run server
+   cd  EduLab_Assignment
+   npm install
+   start the server with command : npm run server
 
-## Project Structure
-
-.
-├── config
-├── controllers
-│   ├── userController.js
-│   └── taskController.js
-├── middlewares
-│   ├── auth.js
-│   └── authorization.js
-├── models
-│   ├── userModel.js
-│   └── taskModel.js
-├── routes
-│   ├── userRoute.js
-│   └── taskRoute.js
-├── .env
-├── .gitignore
-├── index.js
-└── README.md
+  ## Project Structure
+   ├── config
+   ├── controllers
+   │   ├── userController.js
+   │   └── taskController.js
+   ├── middlewares
+   │   ├── auth.js
+   │   └── authorization.js
+   ├── models
+   │   ├── userModel.js
+   │   └── taskModel.js
+   ├── routes
+   │   ├── userRoute.js
+   │   └── taskRoute.js
+   ├── .env
+   ├── .gitignore
+   ├── index.js
+   └── README.md
 
  
 
